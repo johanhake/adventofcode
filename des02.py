@@ -1,5 +1,3 @@
-import numpy as np
-
 """
 A Rock
 B Paper
