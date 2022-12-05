@@ -6,7 +6,7 @@ skift_upper =ord("A")-1-26
 def prioritet(hva):
         return ord(hva)-skift_lower if hva.islower() else ord(hva)-skift_upper
 
-with open("input-3.1.txt") as f:
+with open("input/input-3.1.txt") as f:
     prioriteter = []
     grupp_prioriteter = []
     grupp_innhold = []

@@ -40,7 +40,7 @@ poeng2 = {
     "C Z\n" : 6+1,
     }
 
-with open("input-2.1.txt") as f:
+with open("input/input-2.1.txt") as f:
     resultat = f.readlines()
     print("Poeng spill 1:", sum(poeng1[r] for r in resultat))
     print("Poeng spill 2:", sum(poeng2[r] for r in resultat))

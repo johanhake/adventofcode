@@ -1,5 +1,5 @@
 import numpy as np
-with open("input-1.1.txt") as f:
+with open("input/input-1.1.txt") as f:
     
     sum = 0
     calories = []

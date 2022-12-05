@@ -1,4 +1,4 @@
-with open("input-4.1.txt") as f:
+with open("input/input-4.1.txt") as f:
     antall_full_overlapp = 0
     antall_overlapp = 0
     
