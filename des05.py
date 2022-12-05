@@ -13,9 +13,7 @@ with open("input/input-5.1.txt") as f:
             break
         # Fjerner nylinje
         start_plassering.append(linje[:-1])
-    
-    print(start_plassering[-2::-1])
-    
+        
     # Alle de ulike cratesene
     alle_crates = [[] for _ in range(9)]
     alle_crates2 = [[] for _ in range(9)]
@@ -26,7 +24,6 @@ with open("input/input-5.1.txt") as f:
             if crate != "   ":
                 alle_crates[i].append(crate[1])
                 alle_crates2[i].append(crate[1])
-        print(re.findall(crate_mønster, crates)[0])
         
     instruksjoner = linjer[start_i+1:]
     
